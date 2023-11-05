@@ -1,4 +1,4 @@
-# Dotfile configuration for my Mac
+# Dotfile configuration for linux
 
 ## Alacritty
 Alacritty is a terminal emulator
@@ -10,10 +10,16 @@ https://www.nerdfonts.com basically has fonts with glyphs and icons. I use Sauce
 ## neovim
 Neovim is a fork of vim, in addition to vim's setup it can use lua to write plugins and configuration files.
 https://neovim.io/
-##### Installation
-
 
 ## tmux setup
 Terminal window multiplexer like screen
 
+## zsh
 
+## starship
+
+## exa
+
+## mcfly
+
+## zoxide
