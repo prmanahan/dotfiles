@@ -1,0 +1,51 @@
+add_newline = true
+command_timeout = 1000
+format='$all$directory$character'
+
+[aws]
+format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+
+[cmd_duration]
+format = '\[[⏱ $duration ]($style)\]'
+
+
+[memory_usage]
+format = '\[$symbol[$ram( | $swap)]($style)\]'
+
+
+[elm]
+format = '\[[$symbol($version)]($style)\]'
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+
+[golang]
+format = '\[[$symbol($version)]($style)\]'
+
+[helm]
+format = '\[[$symbol($version)]($style)\]'
+
+[hostname]
+ssh_only=false
+format='@[$hostname](bold red)'
+
+[git_branch]
+format = '\[[$symbol$branch]($style)\]'
+
+[java]
+format = '\[[$symbol($version)]($style)\]'
+
+[kubernetes]
+format = '\[[$symbol$context( \($namespace\))]($style)\]'
+
+[rust]
+format = '\[[$symbol($version)]($style)\]'
+
+
+[time]
+format = '\[[$time]($style)\]'
+
+[username]
+format = '[$user]($style)'
+show_always = true
+
